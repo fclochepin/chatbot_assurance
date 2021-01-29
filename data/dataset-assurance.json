@@ -1,0 +1,135 @@
+{"intents": [
+        {"tag": "Bonjour",
+         "patterns": ["Salut", "Il y a quelqu’un là dedans ?","Hey, comment allez vous ?","Hola", "Bonjour", "Bien le bonjour","Bonsoir","Bonjour petit","Hi","Coucou le robot"],
+         "responses": ["Bonjour, comment allez vous ?", "Ravi de vous voir, comment allez vous ?", "Salut, comment puis-je vous aider ?","Bonjour, tout se passe bien pour vous ?","Cher amis, bonjour ! Que puis-je faire pour vous ?"],
+         "context": [""]
+        },
+
+        {"tag": "Merci",
+            "patterns": ["Merci beaucoup !", "Super merci", "D'accord merci"],
+            "responses": ["Avec plaisir :) Avez-vous des questions ? ", "Je vous en prie !", "Ravi de vous avoir aider"],
+            "context": [""]
+           },
+
+        {"tag": "au revoir",
+         "patterns": ["Au revoir", "Bye", "On se parle plus tard", "Tchao", "Bonne soirée", "Bonne nuit", "Bonne journée", "A demain", "A plus tard", "A la prochaine", "A la revoyure"],
+         "responses": ["Je vous en prie ! ", "C'était avec plaisir", "Ravi de vous avoir aider", "Bonne continuation sur notre site", "A très bientôt"],
+         "context": [""]
+        },
+
+         {"tag": "Humeur",
+         "patterns": ["Comment vous allez","Comment tu vas", "Est ce que vous allez bien", "Est ce que tu vas bien","Tout se passe bien","J'espère que tout va bien","Vous allez bien ?","Tu vas bien ?","Ca va ?","Tu as passé une bonne journée ?"],
+         "responses": ["Très bien et vous ?","Bien et vous ?","Ça va pour moi et vous ?","Très bien car je vous parle","Bien parce que je suis avec vous"],
+         "context": [""]
+        },
+
+        {"tag": "HumeurRetour",
+        "patterns": ["Ca va et toi ?","Très bien et vous ?", "Oui et toi ?", "Bien et toi ?", "ça va merci", "très bien c'est gentil"],
+        "responses": ["Parfait, avez-vous des questions ?","Très bien, que puis-je faire pour vous ?"],
+        "context": [""]
+        },
+
+        {"tag": "Occupation",
+         "patterns": ["Tu fais quoi ?", "Que faites-vous ?", "Qu’est-ce que tu fais ?","Quoi de prévu pour aujourd’hui ?","Qu’est-ce que vous faites ?"],
+         "responses": ["Je réponds à vos questions et vous ?","Je travaille et vous ?","Je me renseigne et vous ?"],
+         "context": [""]
+        },
+
+        {"tag": "OccupationRetour",
+        "patterns": ["Je te parle","Je cherche des informations","Je me renseigne dans le domaine de l'assurance","Je cherche des informations sur vos contrats"],
+        "responses": ["En quoi puis-je vous aider ?","Que puis-je faire pour vous ?"],
+        "context": [""]
+        },
+
+        {"tag": "RenseignementAssurance",
+        "patterns": ["Je souhaite souscrire à une assurance", "Quels contrats proposez-vous ?","Quels sont les différents contrats d'assurance"],
+        "responses": ["Notre assurance propose plusieurs types de contrats, pour plus de renseignements, vous pouvez me demander des informations sur les contrats suivants : véhicule, habitation, décès, assurance vie, protection juridique, responsabilité civile."],
+        "context": [""]
+        },
+
+        {"tag": "AssuranceAuto",
+         "patterns": ["Je veux souscrire une assurance auto","Je veux assurer mon véhicule","Assurer une voiture","Comment assurer une moto"],
+         "responses": ["Pour assurer votre bien, vous devez souscrire à un contrat d'assurance auto. Le tarif peut varier en fonction de votre profil. Pour établir un devis, cliquez ici."],
+         "context": [""]
+        },
+
+        {"tag": "AssuranceHabitation",
+         "patterns": ["Souscription assurance habitation","Protéger ma maison", "Protection incendie", "Couvrir les dégâts de mon logement", "Protéger mon bien immobilier"],
+         "responses": ["Le contrat d'assurance habitation vous permet de vous protéger contre les dégâts causés aux tiers ainsi que contre l'ensemble des risques dans votre habitation. Il existe deux types d'assurance habitation : le contrat responsabilité civile ou le contrat multirisques. Je suis disponible pour vous éclairer sur ces 2 points. Avez-vous d'autres questions ? "],
+         "context": [""]
+        },
+		
+		{"tag": "RespCivile",
+         "patterns": ["Qu'est ce que la responsabilité civile","Le contrat responsabilité civile", "Garantie responsabilité civile"],
+         "responses": ["Ce contrat vous protège contre les dégâts causés aux tiers, il est obligatoire dans le cadre de la location d'un bien. Il est inclus dans le contrat multirisque. Ce type de contrat est fortement recommandé pour vous couvrir en cas de dommage à une personne ou un bien tier. Pour effectuer un devis, vous pouvez cliquer ici. Avez-vous d'autres questions ?"],
+         "context": [""]
+        },
+		
+		{"tag": "MultiRisques",
+         "patterns": ["C'est quoi le contrat multirisques ?","Que couvre le contrat multirisques ?", "Responsabilité civile ou multirisques"],
+         "responses": ["Le contrat multirisques vous protège également des dégâts dans votre habitation, incendie, dégât des eaux, bris de glace etc. en plus de la responsabilité civile. Ce contrat est un peu plus onéreux mais il vous assure une tranquilité au sein de votre habitation. Pour effectuer un devis, vous pouvez cliquer ici. Avez-vous d'autres questions ?"],
+         "context": [""]
+        },
+
+        {"tag": "AssuranceVie",
+            "patterns": ["Qu'est ce qu'une assurance vie","Souscrire une assurance vie", "Assurance décès c'est quoi ?"],
+            "responses": ["L'assurance vie est un contrat qui vous permet d'épargner sereinement pour anticiper de futurs projets. Elle est aujourd'hui détenue par 43 % des Français et elle est vue comme le meilleur produit d'épargne. Cliquez-ici pour effectuer un devis en ligne !"],
+            "context": [""]
+        },
+
+        {"tag": "ProtJuridique",
+            "patterns": ["Qu'est ce que la protection juridique","Contrat protection juridique", "Garantie protection juridique"],
+            "responses": ["La protection juridique est une assurance qui vous permet en cas de litige avec un tiers de bénificier d'une assistance juridique pour l'établissements des procédures. Pour effectuer un devis, vous pouvez cliquer ici."],
+            "context": [""]
+        },
+
+        {"tag": "CompSante",
+            "patterns": ["Avoir une complémentaire santé","C'est quoi assurance santé", "Souscrire à une mutuelle"],
+            "responses": ["L'assurance santé, c'est la garantie d'être toujours remboursés de vos frais de santé ! La sécurité sociale ne couvre pas toujours l'ensemble des frais médicaux. Cette assurance intervient pour couvrir les dépenses restantes. Cliquez-ici pour établir un devis en ligne."],
+            "context": [""]
+        },
+
+        {"tag": "AssurancePro",
+            "patterns": ["Assurance pour les professionnels","Souscrire assurance pro", "Contrat d'assurance pour les entreprises"],
+            "responses": ["L'assurance professionnelle vous permet de vous couvrir quel que soit votre domaine : BTP, artisanat, commerce etc. Les tarifs varient en fonction du métier. Pour établir un devis en ligne, cliquer-ici !"],
+            "context": [""]
+        },
+
+        {"tag": "ConnaitreTarifs",
+            "patterns": ["Combien coûte les côtisations ?","Quels sont les tarifs", "Combien vais-je payer", "Prix des assurances", "Combien ça coûte les assurance ?", "Quel est le prix ?", "Faire un devis", "Effectuer une simulation"],
+            "responses": ["Les tarifs varient en fonction de nombreux critères : le type de contrat mais aussi votre profil. Pour estimer au mieux vos dépenses, vous pouvez renseigner votre profil et effectuer un devis en ligne. Vous pouvez également être appelé par un de nos conseillers en cliquant ici."],
+            "context": [""]
+        },
+
+        {"tag": "EtreRappele",
+            "patterns": ["Avoir un agent au téléphone","Etre rappelé", "Pouvez-vous m'appeler", "Avoir un conseiller au téléphone"],
+            "responses": ["Vous souhaitez être rappelé ? Nos conseillers sont disponibles entre 8h et 20h du lundi au Samedi. Pour être rappelé, cliquer-ici puis saisir votre numéro de téléphone"],
+            "context": [""]
+        },
+
+        {"tag": "Sinistre",
+            "patterns": ["Déclarer un sinistre","J'ai un problème", "Suivre mon sinistre", "J'ai eu un accident"],
+            "responses": ["Vous souhaitez déclarer un sinistre ? Veuillez vous connecter à votre espace personnel puis choisir la catégorie \"Déclarer un sinsitre\". En cas de difficultés, vous pouvez être rappelé par l'un de nos conseillers."],
+            "context": [""]
+        },
+
+        {"tag": "EspacePerso",
+            "patterns": ["Se connecter","Mon espace personnel", "Difficulté connexion", "Mot de passe oublié"],
+            "responses": ["L'espace personnel vous permet de gérer l'ensemble de vos contrats. Si vous avez des difficultés de connexion, vous pouvez être rappelé par l'un de nos conseillers."],
+            "context": [""]
+        },
+
+        {"tag": "AgenceLaPlusProche",
+            "patterns": ["Trouver une agence","Agence près de chez moi", "Quelle est l'agence la plus proche", "Où vous trouver ?"],
+            "responses": ["Vous souhaitez trouver l'agence la plus proche ? Cliquer-ici ! "],
+            "context": [""]
+        },
+
+        {"tag": "PasCompris",
+            "patterns": [" ", " ", " "],
+            "responses": ["Désolé, je n'ai pas compris votre demande, pouvez-vous formuler différement ? "],
+            "context": [""]
+        }
+   ]
+}
+
