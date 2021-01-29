@@ -1,6 +1,6 @@
-# Readme
 
-Voici quelques indications pour lancer le code.
+
+Voici quelques indications pour lancer le code. Attention : version de Python recommandée : 3.8.7. Tensorflow ne fonctionne pas avec Python 3.9.
 
 ### Installation des librairies
 ```bash
